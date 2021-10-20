@@ -1,0 +1,491 @@
+2021-01-31 19:57:21,492-[base_test_case.py-->line:20]-INFO:***********登录lemon开始测试**********
+2021-01-31 19:57:28,763-[base_page.py-->line:69]-INFO:在导航栏，我的柠檬操作的时候，等待('id', 'com.lemon.lemonban:id/navigation_my')元素可见【成功】
+2021-01-31 19:57:28,782-[base_page.py-->line:163]-INFO:在导航栏，我的柠檬操作的时候，点击('id', 'com.lemon.lemonban:id/navigation_my')元素【成功】
+2021-01-31 19:57:28,783-[test_login.py-->line:21]-INFO:**********用户名为空开始测试**********
+2021-01-31 19:57:29,443-[base_page.py-->line:69]-INFO:在我的柠檬页面，点击我的头像操作的时候，等待('xpath', '//*[@text="点击头像登录"]')元素可见【成功】
+2021-01-31 19:57:29,462-[base_page.py-->line:163]-INFO:在我的柠檬页面，点击我的头像操作的时候，点击('xpath', '//*[@text="点击头像登录"]')元素【成功】
+2021-01-31 19:57:30,447-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_mobile')元素可见【成功】
+2021-01-31 19:57:30,964-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_mobile')元素输入【成功】
+2021-01-31 19:57:31,467-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_password')元素可见【成功】
+2021-01-31 19:57:31,482-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_password')元素输入424046【成功】
+2021-01-31 19:57:31,986-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('xpath', '//*[@text="登录"]')元素可见【成功】
+2021-01-31 19:57:32,003-[base_page.py-->line:163]-INFO:在登录页面，登录操作的时候，点击('xpath', '//*[@text="登录"]')元素【成功】
+2021-01-31 19:57:32,053-[base_page.py-->line:112]-INFO:在登录页面，获取错误信息操作的时候，等待('xpath', '//*[@class="android.widget.Toast"]')元素可见【成功】
+2021-01-31 19:57:32,549-[base_page.py-->line:218]-INFO:在登录页面，获取错误信息操作的时候，获取('xpath', '//*[@class="android.widget.Toast"]')元素的文本【成功】
+2021-01-31 19:57:32,596-[base_page.py-->line:69]-INFO:在登录页面，关闭登录页面操作的时候，等待('xpath', '//*[@class="android.widget.ImageButton"]')元素可见【成功】
+2021-01-31 19:57:32,614-[base_page.py-->line:163]-INFO:在登录页面，关闭登录页面操作的时候，点击('xpath', '//*[@class="android.widget.ImageButton"]')元素【成功】
+2021-01-31 19:57:32,615-[test_login.py-->line:33]-INFO:**********用户名为空测试结束**********
+2021-01-31 19:57:32,617-[test_login.py-->line:21]-INFO:**********手机号输入有误开始测试**********
+2021-01-31 19:57:33,184-[base_page.py-->line:69]-INFO:在我的柠檬页面，点击我的头像操作的时候，等待('xpath', '//*[@text="点击头像登录"]')元素可见【成功】
+2021-01-31 19:57:33,204-[base_page.py-->line:163]-INFO:在我的柠檬页面，点击我的头像操作的时候，点击('xpath', '//*[@text="点击头像登录"]')元素【成功】
+2021-01-31 19:57:34,220-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_mobile')元素可见【成功】
+2021-01-31 19:57:34,748-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_mobile')元素输入18311424047【成功】
+2021-01-31 19:57:35,266-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_password')元素可见【成功】
+2021-01-31 19:57:35,286-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_password')元素输入424046【成功】
+2021-01-31 19:57:35,826-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('xpath', '//*[@text="登录"]')元素可见【成功】
+2021-01-31 19:57:35,839-[base_page.py-->line:163]-INFO:在登录页面，登录操作的时候，点击('xpath', '//*[@text="登录"]')元素【成功】
+2021-01-31 19:57:38,237-[base_page.py-->line:112]-INFO:在登录页面，获取错误信息操作的时候，等待('xpath', '//*[@class="android.widget.Toast"]')元素可见【成功】
+2021-01-31 19:57:38,268-[base_page.py-->line:218]-INFO:在登录页面，获取错误信息操作的时候，获取('xpath', '//*[@class="android.widget.Toast"]')元素的文本【成功】
+2021-01-31 19:57:38,323-[base_page.py-->line:69]-INFO:在登录页面，关闭登录页面操作的时候，等待('xpath', '//*[@class="android.widget.ImageButton"]')元素可见【成功】
+2021-01-31 19:57:38,345-[base_page.py-->line:163]-INFO:在登录页面，关闭登录页面操作的时候，点击('xpath', '//*[@class="android.widget.ImageButton"]')元素【成功】
+2021-01-31 19:57:38,346-[test_login.py-->line:33]-INFO:**********手机号输入有误测试结束**********
+2021-01-31 19:57:38,348-[test_login.py-->line:21]-INFO:**********密码为空开始测试**********
+2021-01-31 19:57:38,966-[base_page.py-->line:69]-INFO:在我的柠檬页面，点击我的头像操作的时候，等待('xpath', '//*[@text="点击头像登录"]')元素可见【成功】
+2021-01-31 19:57:38,982-[base_page.py-->line:163]-INFO:在我的柠檬页面，点击我的头像操作的时候，点击('xpath', '//*[@text="点击头像登录"]')元素【成功】
+2021-01-31 19:57:39,997-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_mobile')元素可见【成功】
+2021-01-31 19:57:40,516-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_mobile')元素输入18311424046【成功】
+2021-01-31 19:57:41,030-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_password')元素可见【成功】
+2021-01-31 19:57:41,048-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_password')元素输入【成功】
+2021-01-31 19:57:41,593-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('xpath', '//*[@text="登录"]')元素可见【成功】
+2021-01-31 19:57:41,606-[base_page.py-->line:163]-INFO:在登录页面，登录操作的时候，点击('xpath', '//*[@text="登录"]')元素【成功】
+2021-01-31 19:57:41,716-[base_page.py-->line:112]-INFO:在登录页面，获取错误信息操作的时候，等待('xpath', '//*[@class="android.widget.Toast"]')元素可见【成功】
+2021-01-31 19:57:42,139-[base_page.py-->line:218]-INFO:在登录页面，获取错误信息操作的时候，获取('xpath', '//*[@class="android.widget.Toast"]')元素的文本【成功】
+2021-01-31 19:57:42,191-[base_page.py-->line:69]-INFO:在登录页面，关闭登录页面操作的时候，等待('xpath', '//*[@class="android.widget.ImageButton"]')元素可见【成功】
+2021-01-31 19:57:42,202-[base_page.py-->line:163]-INFO:在登录页面，关闭登录页面操作的时候，点击('xpath', '//*[@class="android.widget.ImageButton"]')元素【成功】
+2021-01-31 19:57:42,202-[test_login.py-->line:33]-INFO:**********密码为空测试结束**********
+2021-01-31 19:57:42,204-[test_login.py-->line:37]-INFO:**********登录成功开始测试**********
+2021-01-31 19:57:42,754-[base_page.py-->line:69]-INFO:在我的柠檬页面，点击我的头像操作的时候，等待('xpath', '//*[@text="点击头像登录"]')元素可见【成功】
+2021-01-31 19:57:42,770-[base_page.py-->line:163]-INFO:在我的柠檬页面，点击我的头像操作的时候，点击('xpath', '//*[@text="点击头像登录"]')元素【成功】
+2021-01-31 19:57:43,715-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_mobile')元素可见【成功】
+2021-01-31 19:57:44,251-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_mobile')元素输入18311424046【成功】
+2021-01-31 19:57:44,769-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_password')元素可见【成功】
+2021-01-31 19:57:44,790-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_password')元素输入424046【成功】
+2021-01-31 19:57:45,330-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('xpath', '//*[@text="登录"]')元素可见【成功】
+2021-01-31 19:57:45,347-[base_page.py-->line:163]-INFO:在登录页面，登录操作的时候，点击('xpath', '//*[@text="登录"]')元素【成功】
+2021-01-31 19:57:48,474-[base_page.py-->line:69]-INFO:在我的柠檬页面，获取登录成功后昵称操作的时候，等待('id', 'com.lemon.lemonban:id/fragment_my_lemon_avatar_title')元素可见【成功】
+2021-01-31 19:57:48,486-[base_page.py-->line:218]-INFO:在我的柠檬页面，获取登录成功后昵称操作的时候，获取('id', 'com.lemon.lemonban:id/fragment_my_lemon_avatar_title')元素的文本【成功】
+2021-01-31 19:57:48,577-[base_page.py-->line:69]-INFO:在登录页面，关闭登录页面操作的时候，等待('xpath', '//*[@class="android.widget.ImageButton"]')元素可见【成功】
+2021-01-31 19:57:48,598-[base_page.py-->line:163]-INFO:在登录页面，关闭登录页面操作的时候，点击('xpath', '//*[@class="android.widget.ImageButton"]')元素【成功】
+2021-01-31 19:57:48,599-[test_login.py-->line:49]-INFO:**********登录成功测试结束**********
+2021-01-31 19:57:49,268-[base_test_case.py-->line:24]-INFO:***********登录lemon测试结束**********
+2021-01-31 19:57:49,270-[base_test_case.py-->line:20]-INFO:***********登出功能开始测试**********
+2021-01-31 19:57:57,289-[base_page.py-->line:69]-INFO:在导航栏，我的柠檬操作的时候，等待('id', 'com.lemon.lemonban:id/navigation_my')元素可见【成功】
+2021-01-31 19:57:57,314-[base_page.py-->line:163]-INFO:在导航栏，我的柠檬操作的时候，点击('id', 'com.lemon.lemonban:id/navigation_my')元素【成功】
+2021-01-31 19:58:02,373-[base_page.py-->line:62]-ERROR:在我的柠檬页面，点击我的头像操作的时候，等待('xpath', '//*[@text="点击头像登录"]')元素可见【失败】
+Traceback (most recent call last):
+  File "C:\Users\zhengshan\PyProjects\day47\page_objects\base_page.py", line 57, in wait_element_is_visible
+    EC.visibility_of_element_located(locator)
+  File "C:\Users\zhengshan\Python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2021-01-31 19:58:02,848-[base_page.py-->line:291]-INFO:生成错误截图：C:\Users\zhengshan\PyProjects\day47\screenshot\我的柠檬页面_点击我的头像操作_2021-01-31 19-58-02.png【成功】
+2021-01-31 19:58:03,524-[base_test_case.py-->line:24]-INFO:***********登出功能测试结束**********
+2021-01-31 19:58:32,369-[base_test_case.py-->line:20]-INFO:***********登录lemon开始测试**********
+2021-01-31 19:58:41,113-[base_page.py-->line:69]-INFO:在导航栏，我的柠檬操作的时候，等待('id', 'com.lemon.lemonban:id/navigation_my')元素可见【成功】
+2021-01-31 19:58:41,144-[base_page.py-->line:163]-INFO:在导航栏，我的柠檬操作的时候，点击('id', 'com.lemon.lemonban:id/navigation_my')元素【成功】
+2021-01-31 19:58:41,145-[test_login.py-->line:21]-INFO:**********用户名为空开始测试**********
+2021-01-31 19:58:41,934-[base_page.py-->line:69]-INFO:在我的柠檬页面，点击我的头像操作的时候，等待('xpath', '//*[@text="点击头像登录"]')元素可见【成功】
+2021-01-31 19:58:41,947-[base_page.py-->line:163]-INFO:在我的柠檬页面，点击我的头像操作的时候，点击('xpath', '//*[@text="点击头像登录"]')元素【成功】
+2021-01-31 19:58:43,007-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_mobile')元素可见【成功】
+2021-01-31 19:58:43,532-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_mobile')元素输入【成功】
+2021-01-31 19:58:44,050-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_password')元素可见【成功】
+2021-01-31 19:58:44,068-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_password')元素输入424046【成功】
+2021-01-31 19:58:44,605-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('xpath', '//*[@text="登录"]')元素可见【成功】
+2021-01-31 19:58:44,616-[base_page.py-->line:163]-INFO:在登录页面，登录操作的时候，点击('xpath', '//*[@text="登录"]')元素【成功】
+2021-01-31 19:58:44,664-[base_page.py-->line:112]-INFO:在登录页面，获取错误信息操作的时候，等待('xpath', '//*[@class="android.widget.Toast"]')元素可见【成功】
+2021-01-31 19:58:45,172-[base_page.py-->line:218]-INFO:在登录页面，获取错误信息操作的时候，获取('xpath', '//*[@class="android.widget.Toast"]')元素的文本【成功】
+2021-01-31 19:58:45,241-[base_page.py-->line:69]-INFO:在登录页面，关闭登录页面操作的时候，等待('xpath', '//*[@class="android.widget.ImageButton"]')元素可见【成功】
+2021-01-31 19:58:45,262-[base_page.py-->line:163]-INFO:在登录页面，关闭登录页面操作的时候，点击('xpath', '//*[@class="android.widget.ImageButton"]')元素【成功】
+2021-01-31 19:58:45,263-[test_login.py-->line:33]-INFO:**********用户名为空测试结束**********
+2021-01-31 19:58:45,265-[test_login.py-->line:21]-INFO:**********手机号输入有误开始测试**********
+2021-01-31 19:58:45,826-[base_page.py-->line:69]-INFO:在我的柠檬页面，点击我的头像操作的时候，等待('xpath', '//*[@text="点击头像登录"]')元素可见【成功】
+2021-01-31 19:58:45,843-[base_page.py-->line:163]-INFO:在我的柠檬页面，点击我的头像操作的时候，点击('xpath', '//*[@text="点击头像登录"]')元素【成功】
+2021-01-31 19:58:46,862-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_mobile')元素可见【成功】
+2021-01-31 19:58:47,399-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_mobile')元素输入18311424047【成功】
+2021-01-31 19:58:47,915-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_password')元素可见【成功】
+2021-01-31 19:58:47,939-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_password')元素输入424046【成功】
+2021-01-31 19:58:48,505-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('xpath', '//*[@text="登录"]')元素可见【成功】
+2021-01-31 19:58:48,520-[base_page.py-->line:163]-INFO:在登录页面，登录操作的时候，点击('xpath', '//*[@text="登录"]')元素【成功】
+2021-01-31 19:58:50,933-[base_page.py-->line:112]-INFO:在登录页面，获取错误信息操作的时候，等待('xpath', '//*[@class="android.widget.Toast"]')元素可见【成功】
+2021-01-31 19:58:50,990-[base_page.py-->line:218]-INFO:在登录页面，获取错误信息操作的时候，获取('xpath', '//*[@class="android.widget.Toast"]')元素的文本【成功】
+2021-01-31 19:58:51,047-[base_page.py-->line:69]-INFO:在登录页面，关闭登录页面操作的时候，等待('xpath', '//*[@class="android.widget.ImageButton"]')元素可见【成功】
+2021-01-31 19:58:51,065-[base_page.py-->line:163]-INFO:在登录页面，关闭登录页面操作的时候，点击('xpath', '//*[@class="android.widget.ImageButton"]')元素【成功】
+2021-01-31 19:58:51,065-[test_login.py-->line:33]-INFO:**********手机号输入有误测试结束**********
+2021-01-31 19:58:51,068-[test_login.py-->line:21]-INFO:**********密码为空开始测试**********
+2021-01-31 19:58:51,668-[base_page.py-->line:69]-INFO:在我的柠檬页面，点击我的头像操作的时候，等待('xpath', '//*[@text="点击头像登录"]')元素可见【成功】
+2021-01-31 19:58:51,688-[base_page.py-->line:163]-INFO:在我的柠檬页面，点击我的头像操作的时候，点击('xpath', '//*[@text="点击头像登录"]')元素【成功】
+2021-01-31 19:58:52,690-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_mobile')元素可见【成功】
+2021-01-31 19:58:53,217-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_mobile')元素输入18311424046【成功】
+2021-01-31 19:58:53,735-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_password')元素可见【成功】
+2021-01-31 19:58:53,753-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_password')元素输入【成功】
+2021-01-31 19:58:54,291-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('xpath', '//*[@text="登录"]')元素可见【成功】
+2021-01-31 19:58:54,312-[base_page.py-->line:163]-INFO:在登录页面，登录操作的时候，点击('xpath', '//*[@text="登录"]')元素【成功】
+2021-01-31 19:58:54,451-[base_page.py-->line:112]-INFO:在登录页面，获取错误信息操作的时候，等待('xpath', '//*[@class="android.widget.Toast"]')元素可见【成功】
+2021-01-31 19:58:54,856-[base_page.py-->line:218]-INFO:在登录页面，获取错误信息操作的时候，获取('xpath', '//*[@class="android.widget.Toast"]')元素的文本【成功】
+2021-01-31 19:58:54,930-[base_page.py-->line:69]-INFO:在登录页面，关闭登录页面操作的时候，等待('xpath', '//*[@class="android.widget.ImageButton"]')元素可见【成功】
+2021-01-31 19:58:54,950-[base_page.py-->line:163]-INFO:在登录页面，关闭登录页面操作的时候，点击('xpath', '//*[@class="android.widget.ImageButton"]')元素【成功】
+2021-01-31 19:58:54,950-[test_login.py-->line:33]-INFO:**********密码为空测试结束**********
+2021-01-31 19:58:54,954-[test_login.py-->line:37]-INFO:**********登录成功开始测试**********
+2021-01-31 19:58:55,514-[base_page.py-->line:69]-INFO:在我的柠檬页面，点击我的头像操作的时候，等待('xpath', '//*[@text="点击头像登录"]')元素可见【成功】
+2021-01-31 19:58:55,530-[base_page.py-->line:163]-INFO:在我的柠檬页面，点击我的头像操作的时候，点击('xpath', '//*[@text="点击头像登录"]')元素【成功】
+2021-01-31 19:58:56,532-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_mobile')元素可见【成功】
+2021-01-31 19:58:57,065-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_mobile')元素输入18311424046【成功】
+2021-01-31 19:58:57,581-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_password')元素可见【成功】
+2021-01-31 19:58:57,604-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_password')元素输入424046【成功】
+2021-01-31 19:58:58,141-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('xpath', '//*[@text="登录"]')元素可见【成功】
+2021-01-31 19:58:58,161-[base_page.py-->line:163]-INFO:在登录页面，登录操作的时候，点击('xpath', '//*[@text="登录"]')元素【成功】
+2021-01-31 19:59:01,253-[base_page.py-->line:69]-INFO:在我的柠檬页面，获取登录成功后昵称操作的时候，等待('id', 'com.lemon.lemonban:id/fragment_my_lemon_avatar_title')元素可见【成功】
+2021-01-31 19:59:01,266-[base_page.py-->line:218]-INFO:在我的柠檬页面，获取登录成功后昵称操作的时候，获取('id', 'com.lemon.lemonban:id/fragment_my_lemon_avatar_title')元素的文本【成功】
+2021-01-31 19:59:01,362-[base_page.py-->line:69]-INFO:在登录页面，关闭登录页面操作的时候，等待('xpath', '//*[@class="android.widget.ImageButton"]')元素可见【成功】
+2021-01-31 19:59:01,378-[base_page.py-->line:163]-INFO:在登录页面，关闭登录页面操作的时候，点击('xpath', '//*[@class="android.widget.ImageButton"]')元素【成功】
+2021-01-31 19:59:01,378-[test_login.py-->line:49]-INFO:**********登录成功测试结束**********
+2021-01-31 19:59:02,150-[base_test_case.py-->line:24]-INFO:***********登录lemon测试结束**********
+2021-01-31 19:59:02,152-[base_test_case.py-->line:20]-INFO:***********登出功能开始测试**********
+2021-01-31 19:59:11,427-[base_page.py-->line:69]-INFO:在导航栏，我的柠檬操作的时候，等待('id', 'com.lemon.lemonban:id/navigation_my')元素可见【成功】
+2021-01-31 19:59:11,453-[base_page.py-->line:163]-INFO:在导航栏，我的柠檬操作的时候，点击('id', 'com.lemon.lemonban:id/navigation_my')元素【成功】
+2021-01-31 19:59:12,139-[base_page.py-->line:69]-INFO:在我的柠檬页面，点击我的头像操作的时候，等待('xpath', '//*[@text="点击头像登录"]')元素可见【成功】
+2021-01-31 19:59:12,164-[base_page.py-->line:163]-INFO:在我的柠檬页面，点击我的头像操作的时候，点击('xpath', '//*[@text="点击头像登录"]')元素【成功】
+2021-01-31 19:59:13,241-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_mobile')元素可见【成功】
+2021-01-31 19:59:13,768-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_mobile')元素输入18311424046【成功】
+2021-01-31 19:59:14,283-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_password')元素可见【成功】
+2021-01-31 19:59:14,303-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_password')元素输入424046【成功】
+2021-01-31 19:59:14,868-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('xpath', '//*[@text="登录"]')元素可见【成功】
+2021-01-31 19:59:14,887-[base_page.py-->line:163]-INFO:在登录页面，登录操作的时候，点击('xpath', '//*[@text="登录"]')元素【成功】
+2021-01-31 19:59:14,888-[test_login_out.py-->line:17]-INFO:**********登出功能开始测试**********
+2021-01-31 19:59:18,011-[base_page.py-->line:69]-INFO:在导航栏，点击我的操作的时候，等待('id', 'com.lemon.lemonban:id/navigation_my')元素可见【成功】
+2021-01-31 19:59:18,025-[base_page.py-->line:163]-INFO:在导航栏，点击我的操作的时候，点击('id', 'com.lemon.lemonban:id/navigation_my')元素【成功】
+2021-01-31 19:59:18,618-[base_page.py-->line:69]-INFO:在设置页面，点击设置按钮操作的时候，等待('xpath', '//*[@class="android.widget.ImageButton"]')元素可见【成功】
+2021-01-31 19:59:18,634-[base_page.py-->line:163]-INFO:在设置页面，点击设置按钮操作的时候，点击('xpath', '//*[@class="android.widget.ImageButton"]')元素【成功】
+2021-01-31 19:59:19,565-[base_page.py-->line:69]-INFO:在设置页面，点击退出操作的时候，等待('id', 'com.lemon.lemonban:id/logout_button')元素可见【成功】
+2021-01-31 19:59:19,583-[base_page.py-->line:163]-INFO:在设置页面，点击退出操作的时候，点击('id', 'com.lemon.lemonban:id/logout_button')元素【成功】
+2021-01-31 19:59:20,297-[base_page.py-->line:69]-INFO:在设置页面，点击确认操作的时候，等待('id', 'com.lemon.lemonban:id/tv_sure')元素可见【成功】
+2021-01-31 19:59:20,312-[base_page.py-->line:163]-INFO:在设置页面，点击确认操作的时候，点击('id', 'com.lemon.lemonban:id/tv_sure')元素【成功】
+2021-01-31 19:59:20,665-[base_page.py-->line:112]-INFO:在设置页面，登出后toast操作的时候，等待('xpath', '//*[@class="android.widget.Toast"]')元素可见【成功】
+2021-01-31 19:59:21,037-[base_page.py-->line:218]-INFO:在设置页面，登出后toast操作的时候，获取('xpath', '//*[@class="android.widget.Toast"]')元素的文本【成功】
+2021-01-31 19:59:21,037-[test_login_out.py-->line:32]-INFO:**********登出功能测试结束**********
+2021-01-31 19:59:21,657-[base_test_case.py-->line:24]-INFO:***********登出功能测试结束**********
+2021-02-01 20:34:38,854-[base_test_case.py-->line:20]-INFO:***********登录lemon开始测试**********
+2021-02-01 20:34:48,138-[base_page.py-->line:69]-INFO:在导航栏，我的柠檬操作的时候，等待('id', 'com.lemon.lemonban:id/navigation_my')元素可见【成功】
+2021-02-01 20:34:48,179-[base_page.py-->line:163]-INFO:在导航栏，我的柠檬操作的时候，点击('id', 'com.lemon.lemonban:id/navigation_my')元素【成功】
+2021-02-01 20:34:48,180-[test_login.py-->line:21]-INFO:**********用户名为空开始测试**********
+2021-02-01 20:34:48,878-[base_page.py-->line:69]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，等待('xpath', '//*[@text="点击头像登录"]')元素可见【成功】
+2021-02-01 20:34:48,901-[base_page.py-->line:163]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，点击('xpath', '//*[@text="点击头像登录"]')元素【成功】
+2021-02-01 20:34:49,910-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_mobile')元素可见【成功】
+2021-02-01 20:34:50,453-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_mobile')元素输入【成功】
+2021-02-01 20:34:50,987-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_password')元素可见【成功】
+2021-02-01 20:34:51,014-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_password')元素输入424046【成功】
+2021-02-01 20:34:51,553-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('xpath', '//*[@text="登录"]')元素可见【成功】
+2021-02-01 20:34:51,569-[base_page.py-->line:163]-INFO:在登录页面，登录操作的时候，点击('xpath', '//*[@text="登录"]')元素【成功】
+2021-02-01 20:34:51,640-[base_page.py-->line:112]-INFO:在登录页面，获取toast信息操作的时候，等待('xpath', '//*[@class="android.widget.Toast"]')元素加载到文档【成功】
+2021-02-01 20:34:52,145-[base_page.py-->line:218]-INFO:在登录页面，获取toast信息操作的时候，获取('xpath', '//*[@class="android.widget.Toast"]')元素的文本【成功】
+2021-02-01 20:34:52,145-[test_login.py-->line:37]-INFO:用户名为空断言【成功】
+2021-02-01 20:34:52,217-[base_page.py-->line:69]-INFO:在登录页面，关闭登录页面操作的时候，等待('xpath', '//*[@class="android.widget.ImageButton"]')元素可见【成功】
+2021-02-01 20:34:52,236-[base_page.py-->line:163]-INFO:在登录页面，关闭登录页面操作的时候，点击('xpath', '//*[@class="android.widget.ImageButton"]')元素【成功】
+2021-02-01 20:34:52,236-[test_login.py-->line:40]-INFO:**********用户名为空测试结束**********
+2021-02-01 20:34:52,238-[test_login.py-->line:21]-INFO:**********手机号输入有误开始测试**********
+2021-02-01 20:34:52,810-[base_page.py-->line:69]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，等待('xpath', '//*[@text="点击头像登录"]')元素可见【成功】
+2021-02-01 20:34:52,826-[base_page.py-->line:163]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，点击('xpath', '//*[@text="点击头像登录"]')元素【成功】
+2021-02-01 20:34:53,789-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_mobile')元素可见【成功】
+2021-02-01 20:34:54,330-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_mobile')元素输入18311424047【成功】
+2021-02-01 20:34:54,845-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_password')元素可见【成功】
+2021-02-01 20:34:54,864-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_password')元素输入424046【成功】
+2021-02-01 20:34:55,407-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('xpath', '//*[@text="登录"]')元素可见【成功】
+2021-02-01 20:34:55,422-[base_page.py-->line:163]-INFO:在登录页面，登录操作的时候，点击('xpath', '//*[@text="登录"]')元素【成功】
+2021-02-01 20:34:57,848-[base_page.py-->line:112]-INFO:在登录页面，获取toast信息操作的时候，等待('xpath', '//*[@class="android.widget.Toast"]')元素加载到文档【成功】
+2021-02-01 20:34:57,897-[base_page.py-->line:218]-INFO:在登录页面，获取toast信息操作的时候，获取('xpath', '//*[@class="android.widget.Toast"]')元素的文本【成功】
+2021-02-01 20:34:57,897-[test_login.py-->line:37]-INFO:手机号输入有误断言【成功】
+2021-02-01 20:34:57,965-[base_page.py-->line:69]-INFO:在登录页面，关闭登录页面操作的时候，等待('xpath', '//*[@class="android.widget.ImageButton"]')元素可见【成功】
+2021-02-01 20:34:57,986-[base_page.py-->line:163]-INFO:在登录页面，关闭登录页面操作的时候，点击('xpath', '//*[@class="android.widget.ImageButton"]')元素【成功】
+2021-02-01 20:34:57,986-[test_login.py-->line:40]-INFO:**********手机号输入有误测试结束**********
+2021-02-01 20:34:57,989-[test_login.py-->line:21]-INFO:**********密码为空开始测试**********
+2021-02-01 20:34:58,579-[base_page.py-->line:69]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，等待('xpath', '//*[@text="点击头像登录"]')元素可见【成功】
+2021-02-01 20:34:58,599-[base_page.py-->line:163]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，点击('xpath', '//*[@text="点击头像登录"]')元素【成功】
+2021-02-01 20:34:59,661-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_mobile')元素可见【成功】
+2021-02-01 20:35:00,192-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_mobile')元素输入18311424046【成功】
+2021-02-01 20:35:00,726-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_password')元素可见【成功】
+2021-02-01 20:35:00,751-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_password')元素输入【成功】
+2021-02-01 20:35:01,312-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('xpath', '//*[@text="登录"]')元素可见【成功】
+2021-02-01 20:35:01,342-[base_page.py-->line:163]-INFO:在登录页面，登录操作的时候，点击('xpath', '//*[@text="登录"]')元素【成功】
+2021-02-01 20:35:01,501-[base_page.py-->line:112]-INFO:在登录页面，获取toast信息操作的时候，等待('xpath', '//*[@class="android.widget.Toast"]')元素加载到文档【成功】
+2021-02-01 20:35:01,898-[base_page.py-->line:218]-INFO:在登录页面，获取toast信息操作的时候，获取('xpath', '//*[@class="android.widget.Toast"]')元素的文本【成功】
+2021-02-01 20:35:01,899-[test_login.py-->line:37]-INFO:密码为空断言【成功】
+2021-02-01 20:35:01,996-[base_page.py-->line:69]-INFO:在登录页面，关闭登录页面操作的时候，等待('xpath', '//*[@class="android.widget.ImageButton"]')元素可见【成功】
+2021-02-01 20:35:02,023-[base_page.py-->line:163]-INFO:在登录页面，关闭登录页面操作的时候，点击('xpath', '//*[@class="android.widget.ImageButton"]')元素【成功】
+2021-02-01 20:35:02,025-[test_login.py-->line:40]-INFO:**********密码为空测试结束**********
+2021-02-01 20:35:02,028-[test_login.py-->line:44]-INFO:**********登录成功开始测试**********
+2021-02-01 20:35:03,143-[base_test_case.py-->line:24]-INFO:***********登录lemon测试结束**********
+2021-02-01 20:35:03,146-[base_test_case.py-->line:20]-INFO:***********登出功能开始测试**********
+2021-02-01 20:35:15,536-[base_page.py-->line:69]-INFO:在导航栏，我的柠檬操作的时候，等待('id', 'com.lemon.lemonban:id/navigation_my')元素可见【成功】
+2021-02-01 20:35:15,563-[base_page.py-->line:163]-INFO:在导航栏，我的柠檬操作的时候，点击('id', 'com.lemon.lemonban:id/navigation_my')元素【成功】
+2021-02-01 20:35:16,340-[base_test_case.py-->line:24]-INFO:***********登出功能测试结束**********
+2021-02-01 20:39:54,219-[base_test_case.py-->line:20]-INFO:***********登录lemon开始测试**********
+2021-02-01 20:40:03,270-[base_page.py-->line:69]-INFO:在导航栏，我的柠檬操作的时候，等待('id', 'com.lemon.lemonban:id/navigation_my')元素可见【成功】
+2021-02-01 20:40:03,287-[base_page.py-->line:163]-INFO:在导航栏，我的柠檬操作的时候，点击('id', 'com.lemon.lemonban:id/navigation_my')元素【成功】
+2021-02-01 20:40:03,288-[test_login.py-->line:21]-INFO:**********用户名为空开始测试**********
+2021-02-01 20:40:03,960-[base_page.py-->line:69]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，等待('xpath', '//*[@text="点击头像登录"]')元素可见【成功】
+2021-02-01 20:40:03,977-[base_page.py-->line:163]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，点击('xpath', '//*[@text="点击头像登录"]')元素【成功】
+2021-02-01 20:40:04,969-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_mobile')元素可见【成功】
+2021-02-01 20:40:05,504-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_mobile')元素输入【成功】
+2021-02-01 20:40:06,020-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_password')元素可见【成功】
+2021-02-01 20:40:06,053-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_password')元素输入424046【成功】
+2021-02-01 20:40:06,605-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('xpath', '//*[@text="登录"]')元素可见【成功】
+2021-02-01 20:40:06,620-[base_page.py-->line:163]-INFO:在登录页面，登录操作的时候，点击('xpath', '//*[@text="登录"]')元素【成功】
+2021-02-01 20:40:06,682-[base_page.py-->line:112]-INFO:在登录页面，获取toast信息操作的时候，等待('xpath', '//*[@class="android.widget.Toast"]')元素加载到文档【成功】
+2021-02-01 20:40:07,173-[base_page.py-->line:218]-INFO:在登录页面，获取toast信息操作的时候，获取('xpath', '//*[@class="android.widget.Toast"]')元素的文本【成功】
+2021-02-01 20:40:07,173-[test_login.py-->line:37]-INFO:用户名为空断言【成功】
+2021-02-01 20:40:07,239-[base_page.py-->line:69]-INFO:在登录页面，关闭登录页面操作的时候，等待('xpath', '//*[@class="android.widget.ImageButton"]')元素可见【成功】
+2021-02-01 20:40:07,255-[base_page.py-->line:163]-INFO:在登录页面，关闭登录页面操作的时候，点击('xpath', '//*[@class="android.widget.ImageButton"]')元素【成功】
+2021-02-01 20:40:07,256-[test_login.py-->line:40]-INFO:**********用户名为空测试结束**********
+2021-02-01 20:40:07,258-[test_login.py-->line:21]-INFO:**********手机号输入有误开始测试**********
+2021-02-01 20:40:07,824-[base_page.py-->line:69]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，等待('xpath', '//*[@text="点击头像登录"]')元素可见【成功】
+2021-02-01 20:40:07,840-[base_page.py-->line:163]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，点击('xpath', '//*[@text="点击头像登录"]')元素【成功】
+2021-02-01 20:40:08,824-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_mobile')元素可见【成功】
+2021-02-01 20:40:09,356-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_mobile')元素输入18311424047【成功】
+2021-02-01 20:40:09,897-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_password')元素可见【成功】
+2021-02-01 20:40:09,923-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_password')元素输入424046【成功】
+2021-02-01 20:40:10,458-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('xpath', '//*[@text="登录"]')元素可见【成功】
+2021-02-01 20:40:10,477-[base_page.py-->line:163]-INFO:在登录页面，登录操作的时候，点击('xpath', '//*[@text="登录"]')元素【成功】
+2021-02-01 20:40:12,888-[base_page.py-->line:112]-INFO:在登录页面，获取toast信息操作的时候，等待('xpath', '//*[@class="android.widget.Toast"]')元素加载到文档【成功】
+2021-02-01 20:40:12,938-[base_page.py-->line:218]-INFO:在登录页面，获取toast信息操作的时候，获取('xpath', '//*[@class="android.widget.Toast"]')元素的文本【成功】
+2021-02-01 20:40:12,938-[test_login.py-->line:37]-INFO:手机号输入有误断言【成功】
+2021-02-01 20:40:13,005-[base_page.py-->line:69]-INFO:在登录页面，关闭登录页面操作的时候，等待('xpath', '//*[@class="android.widget.ImageButton"]')元素可见【成功】
+2021-02-01 20:40:13,032-[base_page.py-->line:163]-INFO:在登录页面，关闭登录页面操作的时候，点击('xpath', '//*[@class="android.widget.ImageButton"]')元素【成功】
+2021-02-01 20:40:13,032-[test_login.py-->line:40]-INFO:**********手机号输入有误测试结束**********
+2021-02-01 20:40:13,034-[test_login.py-->line:21]-INFO:**********密码为空开始测试**********
+2021-02-01 20:40:13,714-[base_page.py-->line:69]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，等待('xpath', '//*[@text="点击头像登录"]')元素可见【成功】
+2021-02-01 20:40:13,744-[base_page.py-->line:163]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，点击('xpath', '//*[@text="点击头像登录"]')元素【成功】
+2021-02-01 20:40:14,800-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_mobile')元素可见【成功】
+2021-02-01 20:40:15,335-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_mobile')元素输入18311424046【成功】
+2021-02-01 20:40:15,852-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_password')元素可见【成功】
+2021-02-01 20:40:15,876-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_password')元素输入【成功】
+2021-02-01 20:40:16,417-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('xpath', '//*[@text="登录"]')元素可见【成功】
+2021-02-01 20:40:16,433-[base_page.py-->line:163]-INFO:在登录页面，登录操作的时候，点击('xpath', '//*[@text="登录"]')元素【成功】
+2021-02-01 20:40:16,570-[base_page.py-->line:112]-INFO:在登录页面，获取toast信息操作的时候，等待('xpath', '//*[@class="android.widget.Toast"]')元素加载到文档【成功】
+2021-02-01 20:40:16,975-[base_page.py-->line:218]-INFO:在登录页面，获取toast信息操作的时候，获取('xpath', '//*[@class="android.widget.Toast"]')元素的文本【成功】
+2021-02-01 20:40:16,976-[test_login.py-->line:37]-INFO:密码为空断言【成功】
+2021-02-01 20:40:17,053-[base_page.py-->line:69]-INFO:在登录页面，关闭登录页面操作的时候，等待('xpath', '//*[@class="android.widget.ImageButton"]')元素可见【成功】
+2021-02-01 20:40:17,075-[base_page.py-->line:163]-INFO:在登录页面，关闭登录页面操作的时候，点击('xpath', '//*[@class="android.widget.ImageButton"]')元素【成功】
+2021-02-01 20:40:17,075-[test_login.py-->line:40]-INFO:**********密码为空测试结束**********
+2021-02-01 20:40:17,080-[test_login.py-->line:44]-INFO:**********登录成功开始测试**********
+2021-02-01 20:40:17,652-[base_page.py-->line:69]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，等待('xpath', '//*[@text="点击头像登录"]')元素可见【成功】
+2021-02-01 20:40:17,672-[base_page.py-->line:163]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，点击('xpath', '//*[@text="点击头像登录"]')元素【成功】
+2021-02-01 20:40:18,716-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_mobile')元素可见【成功】
+2021-02-01 20:40:19,239-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_mobile')元素输入18311424046【成功】
+2021-02-01 20:40:19,754-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_password')元素可见【成功】
+2021-02-01 20:40:19,773-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_password')元素输入424046【成功】
+2021-02-01 20:40:20,323-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('xpath', '//*[@text="登录"]')元素可见【成功】
+2021-02-01 20:40:20,339-[base_page.py-->line:163]-INFO:在登录页面，登录操作的时候，点击('xpath', '//*[@text="登录"]')元素【成功】
+2021-02-01 20:40:23,497-[base_page.py-->line:69]-INFO:在我的柠檬页面，获取登录成功后昵称操作的时候，等待('id', 'com.lemon.lemonban:id/fragment_my_lemon_avatar_title')元素可见【成功】
+2021-02-01 20:40:23,511-[base_page.py-->line:218]-INFO:在我的柠檬页面，获取登录成功后昵称操作的时候，获取('id', 'com.lemon.lemonban:id/fragment_my_lemon_avatar_title')元素的文本【成功】
+2021-02-01 20:40:23,623-[base_page.py-->line:69]-INFO:在登录页面，关闭登录页面操作的时候，等待('xpath', '//*[@class="android.widget.ImageButton"]')元素可见【成功】
+2021-02-01 20:40:23,642-[base_page.py-->line:163]-INFO:在登录页面，关闭登录页面操作的时候，点击('xpath', '//*[@class="android.widget.ImageButton"]')元素【成功】
+2021-02-01 20:40:23,642-[test_login.py-->line:56]-INFO:**********登录成功测试结束**********
+2021-02-01 20:40:24,451-[base_test_case.py-->line:24]-INFO:***********登录lemon测试结束**********
+2021-02-01 20:40:24,454-[base_test_case.py-->line:20]-INFO:***********登出功能开始测试**********
+2021-02-01 20:40:36,310-[base_page.py-->line:69]-INFO:在导航栏，我的柠檬操作的时候，等待('id', 'com.lemon.lemonban:id/navigation_my')元素可见【成功】
+2021-02-01 20:40:36,360-[base_page.py-->line:163]-INFO:在导航栏，我的柠檬操作的时候，点击('id', 'com.lemon.lemonban:id/navigation_my')元素【成功】
+2021-02-01 20:40:37,359-[base_test_case.py-->line:24]-INFO:***********登出功能测试结束**********
+2021-02-01 20:41:55,725-[base_test_case.py-->line:20]-INFO:***********登录lemon开始测试**********
+2021-02-01 20:42:05,036-[base_page.py-->line:69]-INFO:在导航栏，我的柠檬操作的时候，等待('id', 'com.lemon.lemonban:id/navigation_my')元素可见【成功】
+2021-02-01 20:42:05,053-[base_page.py-->line:163]-INFO:在导航栏，我的柠檬操作的时候，点击('id', 'com.lemon.lemonban:id/navigation_my')元素【成功】
+2021-02-01 20:42:05,053-[test_login.py-->line:21]-INFO:**********用户名为空开始测试**********
+2021-02-01 20:42:05,742-[base_page.py-->line:69]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，等待('xpath', '//*[@text="点击头像登录"]')元素可见【成功】
+2021-02-01 20:42:05,757-[base_page.py-->line:163]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，点击('xpath', '//*[@text="点击头像登录"]')元素【成功】
+2021-02-01 20:42:06,818-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_mobile')元素可见【成功】
+2021-02-01 20:42:07,353-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_mobile')元素输入【成功】
+2021-02-01 20:42:07,868-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_password')元素可见【成功】
+2021-02-01 20:42:07,897-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_password')元素输入424046【成功】
+2021-02-01 20:42:08,418-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('xpath', '//*[@text="登录"]')元素可见【成功】
+2021-02-01 20:42:08,435-[base_page.py-->line:163]-INFO:在登录页面，登录操作的时候，点击('xpath', '//*[@text="登录"]')元素【成功】
+2021-02-01 20:42:08,512-[base_page.py-->line:112]-INFO:在登录页面，获取toast信息操作的时候，等待('xpath', '//*[@class="android.widget.Toast"]')元素加载到文档【成功】
+2021-02-01 20:42:09,002-[base_page.py-->line:218]-INFO:在登录页面，获取toast信息操作的时候，获取('xpath', '//*[@class="android.widget.Toast"]')元素的文本【成功】
+2021-02-01 20:42:09,002-[test_login.py-->line:37]-INFO:用户名为空断言【成功】
+2021-02-01 20:42:09,088-[base_page.py-->line:69]-INFO:在登录页面，关闭登录页面操作的时候，等待('xpath', '//*[@class="android.widget.ImageButton"]')元素可见【成功】
+2021-02-01 20:42:09,112-[base_page.py-->line:163]-INFO:在登录页面，关闭登录页面操作的时候，点击('xpath', '//*[@class="android.widget.ImageButton"]')元素【成功】
+2021-02-01 20:42:09,113-[test_login.py-->line:40]-INFO:**********用户名为空测试结束**********
+2021-02-01 20:42:09,115-[test_login.py-->line:21]-INFO:**********手机号输入有误开始测试**********
+2021-02-01 20:42:09,723-[base_page.py-->line:69]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，等待('xpath', '//*[@text="点击头像登录"]')元素可见【成功】
+2021-02-01 20:42:09,740-[base_page.py-->line:163]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，点击('xpath', '//*[@text="点击头像登录"]')元素【成功】
+2021-02-01 20:42:10,750-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_mobile')元素可见【成功】
+2021-02-01 20:42:11,293-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_mobile')元素输入18311424047【成功】
+2021-02-01 20:42:11,826-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_password')元素可见【成功】
+2021-02-01 20:42:11,845-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_password')元素输入424046【成功】
+2021-02-01 20:42:12,394-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('xpath', '//*[@text="登录"]')元素可见【成功】
+2021-02-01 20:42:12,409-[base_page.py-->line:163]-INFO:在登录页面，登录操作的时候，点击('xpath', '//*[@text="登录"]')元素【成功】
+2021-02-01 20:42:14,833-[base_page.py-->line:112]-INFO:在登录页面，获取toast信息操作的时候，等待('xpath', '//*[@class="android.widget.Toast"]')元素加载到文档【成功】
+2021-02-01 20:42:14,897-[base_page.py-->line:218]-INFO:在登录页面，获取toast信息操作的时候，获取('xpath', '//*[@class="android.widget.Toast"]')元素的文本【成功】
+2021-02-01 20:42:14,897-[test_login.py-->line:37]-INFO:手机号输入有误断言【成功】
+2021-02-01 20:42:14,975-[base_page.py-->line:69]-INFO:在登录页面，关闭登录页面操作的时候，等待('xpath', '//*[@class="android.widget.ImageButton"]')元素可见【成功】
+2021-02-01 20:42:14,997-[base_page.py-->line:163]-INFO:在登录页面，关闭登录页面操作的时候，点击('xpath', '//*[@class="android.widget.ImageButton"]')元素【成功】
+2021-02-01 20:42:14,998-[test_login.py-->line:40]-INFO:**********手机号输入有误测试结束**********
+2021-02-01 20:42:15,000-[test_login.py-->line:21]-INFO:**********密码为空开始测试**********
+2021-02-01 20:42:15,711-[base_page.py-->line:69]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，等待('xpath', '//*[@text="点击头像登录"]')元素可见【成功】
+2021-02-01 20:42:15,735-[base_page.py-->line:163]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，点击('xpath', '//*[@text="点击头像登录"]')元素【成功】
+2021-02-01 20:42:16,827-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_mobile')元素可见【成功】
+2021-02-01 20:42:17,359-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_mobile')元素输入18311424046【成功】
+2021-02-01 20:42:17,894-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_password')元素可见【成功】
+2021-02-01 20:42:17,912-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_password')元素输入【成功】
+2021-02-01 20:42:18,474-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('xpath', '//*[@text="登录"]')元素可见【成功】
+2021-02-01 20:42:18,492-[base_page.py-->line:163]-INFO:在登录页面，登录操作的时候，点击('xpath', '//*[@text="登录"]')元素【成功】
+2021-02-01 20:42:18,657-[base_page.py-->line:112]-INFO:在登录页面，获取toast信息操作的时候，等待('xpath', '//*[@class="android.widget.Toast"]')元素加载到文档【成功】
+2021-02-01 20:42:19,053-[base_page.py-->line:218]-INFO:在登录页面，获取toast信息操作的时候，获取('xpath', '//*[@class="android.widget.Toast"]')元素的文本【成功】
+2021-02-01 20:42:19,054-[test_login.py-->line:37]-INFO:密码为空断言【成功】
+2021-02-01 20:42:19,133-[base_page.py-->line:69]-INFO:在登录页面，关闭登录页面操作的时候，等待('xpath', '//*[@class="android.widget.ImageButton"]')元素可见【成功】
+2021-02-01 20:42:19,159-[base_page.py-->line:163]-INFO:在登录页面，关闭登录页面操作的时候，点击('xpath', '//*[@class="android.widget.ImageButton"]')元素【成功】
+2021-02-01 20:42:19,160-[test_login.py-->line:40]-INFO:**********密码为空测试结束**********
+2021-02-01 20:42:19,163-[test_login.py-->line:44]-INFO:**********登录成功开始测试**********
+2021-02-01 20:42:19,723-[base_page.py-->line:69]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，等待('xpath', '//*[@text="点击头像登录"]')元素可见【成功】
+2021-02-01 20:42:19,745-[base_page.py-->line:163]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，点击('xpath', '//*[@text="点击头像登录"]')元素【成功】
+2021-02-01 20:42:20,789-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_mobile')元素可见【成功】
+2021-02-01 20:42:21,324-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_mobile')元素输入18311424046【成功】
+2021-02-01 20:42:21,841-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_password')元素可见【成功】
+2021-02-01 20:42:21,860-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_password')元素输入424046【成功】
+2021-02-01 20:42:22,409-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('xpath', '//*[@text="登录"]')元素可见【成功】
+2021-02-01 20:42:22,428-[base_page.py-->line:163]-INFO:在登录页面，登录操作的时候，点击('xpath', '//*[@text="登录"]')元素【成功】
+2021-02-01 20:42:25,638-[base_page.py-->line:69]-INFO:在我的柠檬页面，获取登录成功后昵称操作的时候，等待('id', 'com.lemon.lemonban:id/fragment_my_lemon_avatar_title')元素可见【成功】
+2021-02-01 20:42:25,658-[base_page.py-->line:218]-INFO:在我的柠檬页面，获取登录成功后昵称操作的时候，获取('id', 'com.lemon.lemonban:id/fragment_my_lemon_avatar_title')元素的文本【成功】
+2021-02-01 20:42:25,773-[base_page.py-->line:69]-INFO:在登录页面，关闭登录页面操作的时候，等待('xpath', '//*[@class="android.widget.ImageButton"]')元素可见【成功】
+2021-02-01 20:42:25,806-[base_page.py-->line:163]-INFO:在登录页面，关闭登录页面操作的时候，点击('xpath', '//*[@class="android.widget.ImageButton"]')元素【成功】
+2021-02-01 20:42:25,807-[test_login.py-->line:56]-INFO:**********登录成功测试结束**********
+2021-02-01 20:42:26,733-[base_test_case.py-->line:24]-INFO:***********登录lemon测试结束**********
+2021-02-01 20:42:26,738-[base_test_case.py-->line:20]-INFO:***********登出功能开始测试**********
+2021-02-01 20:42:38,640-[base_page.py-->line:69]-INFO:在导航栏，我的柠檬操作的时候，等待('id', 'com.lemon.lemonban:id/navigation_my')元素可见【成功】
+2021-02-01 20:42:38,679-[base_page.py-->line:163]-INFO:在导航栏，我的柠檬操作的时候，点击('id', 'com.lemon.lemonban:id/navigation_my')元素【成功】
+2021-02-01 20:42:39,622-[base_page.py-->line:69]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，等待('xpath', '//*[@text="点击头像登录"]')元素可见【成功】
+2021-02-01 20:42:39,648-[base_page.py-->line:163]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，点击('xpath', '//*[@text="点击头像登录"]')元素【成功】
+2021-02-01 20:42:40,722-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_mobile')元素可见【成功】
+2021-02-01 20:42:41,277-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_mobile')元素输入18311424046【成功】
+2021-02-01 20:42:41,805-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_password')元素可见【成功】
+2021-02-01 20:42:41,844-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_password')元素输入424046【成功】
+2021-02-01 20:42:42,408-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('xpath', '//*[@text="登录"]')元素可见【成功】
+2021-02-01 20:42:42,434-[base_page.py-->line:163]-INFO:在登录页面，登录操作的时候，点击('xpath', '//*[@text="登录"]')元素【成功】
+2021-02-01 20:42:42,436-[test_login_out.py-->line:18]-INFO:**********登出功能开始测试**********
+2021-02-01 20:42:45,642-[base_page.py-->line:69]-INFO:在导航栏，点击我的操作的时候，等待('id', 'com.lemon.lemonban:id/navigation_my')元素可见【成功】
+2021-02-01 20:42:45,670-[base_page.py-->line:163]-INFO:在导航栏，点击我的操作的时候，点击('id', 'com.lemon.lemonban:id/navigation_my')元素【成功】
+2021-02-01 20:42:46,283-[base_page.py-->line:69]-INFO:在设置页面，点击设置按钮操作的时候，等待('xpath', '//*[@class="android.widget.ImageButton"]')元素可见【成功】
+2021-02-01 20:42:46,302-[base_page.py-->line:163]-INFO:在设置页面，点击设置按钮操作的时候，点击('xpath', '//*[@class="android.widget.ImageButton"]')元素【成功】
+2021-02-01 20:42:47,293-[base_page.py-->line:69]-INFO:在设置页面，点击退出操作的时候，等待('id', 'com.lemon.lemonban:id/logout_button')元素可见【成功】
+2021-02-01 20:42:47,328-[base_page.py-->line:163]-INFO:在设置页面，点击退出操作的时候，点击('id', 'com.lemon.lemonban:id/logout_button')元素【成功】
+2021-02-01 20:42:48,063-[base_page.py-->line:69]-INFO:在设置页面，点击确认操作的时候，等待('id', 'com.lemon.lemonban:id/tv_sure')元素可见【成功】
+2021-02-01 20:42:48,085-[base_page.py-->line:163]-INFO:在设置页面，点击确认操作的时候，点击('id', 'com.lemon.lemonban:id/tv_sure')元素【成功】
+2021-02-01 20:42:48,473-[base_page.py-->line:112]-INFO:在设置页面，登出后toast操作的时候，等待('xpath', '//*[@class="android.widget.Toast"]')元素加载到文档【成功】
+2021-02-01 20:42:48,834-[base_page.py-->line:218]-INFO:在设置页面，登出后toast操作的时候，获取('xpath', '//*[@class="android.widget.Toast"]')元素的文本【成功】
+2021-02-01 20:42:48,834-[test_login_out.py-->line:33]-INFO:**********登出功能测试结束**********
+2021-02-01 20:42:49,524-[base_test_case.py-->line:24]-INFO:***********登出功能测试结束**********
+2021-02-03 23:47:15,745-[base_test_case.py-->line:20]-INFO:***********题库开始测试**********
+2021-02-03 23:47:24,955-[base_page.py-->line:69]-INFO:在导航栏，我的柠檬操作的时候，等待('id', 'com.lemon.lemonban:id/navigation_my')元素可见【成功】
+2021-02-03 23:47:24,977-[base_page.py-->line:163]-INFO:在导航栏，我的柠檬操作的时候，点击('id', 'com.lemon.lemonban:id/navigation_my')元素【成功】
+2021-02-03 23:47:25,655-[base_page.py-->line:69]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，等待('xpath', '//*[@text="点击头像登录"]')元素可见【成功】
+2021-02-03 23:47:25,668-[base_page.py-->line:163]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，点击('xpath', '//*[@text="点击头像登录"]')元素【成功】
+2021-02-03 23:47:26,642-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_mobile')元素可见【成功】
+2021-02-03 23:47:27,185-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_mobile')元素输入18311424046【成功】
+2021-02-03 23:47:27,702-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_password')元素可见【成功】
+2021-02-03 23:47:27,728-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_password')元素输入424046【成功】
+2021-02-03 23:47:28,272-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('xpath', '//*[@text="登录"]')元素可见【成功】
+2021-02-03 23:47:28,286-[base_page.py-->line:163]-INFO:在登录页面，登录操作的时候，点击('xpath', '//*[@text="登录"]')元素【成功】
+2021-02-03 23:47:31,403-[base_page.py-->line:69]-INFO:在导航栏，题库操作的时候，等待('id', 'com.lemon.lemonban:id/navigation_tiku')元素可见【成功】
+2021-02-03 23:47:31,414-[base_page.py-->line:163]-INFO:在导航栏，题库操作的时候，点击('id', 'com.lemon.lemonban:id/navigation_tiku')元素【成功】
+2021-02-03 23:47:34,867-[base_page.py-->line:62]-ERROR:在题图页面，进入接口测试题库操作的时候，等待('xpath', '//*[contains(@text,"接口测试")]')元素可见【失败】
+Traceback (most recent call last):
+  File "C:\Users\zhengshan\PyProjects\day47\page_objects\base_page.py", line 57, in wait_element_is_visible
+    EC.visibility_of_element_located(locator)
+  File "C:\Users\zhengshan\Python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2021-02-03 23:47:35,573-[base_page.py-->line:291]-INFO:生成错误截图：C:\Users\zhengshan\PyProjects\day47\screenshot\题图页面_进入接口测试题库操作_2021-02-03 23-47-34.png【成功】
+2021-02-03 23:47:36,450-[base_test_case.py-->line:24]-INFO:***********题库测试结束**********
+2021-02-03 23:49:47,387-[base_test_case.py-->line:20]-INFO:***********题库开始测试**********
+2021-02-03 23:49:55,468-[base_page.py-->line:69]-INFO:在导航栏，我的柠檬操作的时候，等待('id', 'com.lemon.lemonban:id/navigation_my')元素可见【成功】
+2021-02-03 23:49:55,480-[base_page.py-->line:163]-INFO:在导航栏，我的柠檬操作的时候，点击('id', 'com.lemon.lemonban:id/navigation_my')元素【成功】
+2021-02-03 23:49:56,131-[base_page.py-->line:69]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，等待('xpath', '//*[@text="点击头像登录"]')元素可见【成功】
+2021-02-03 23:49:56,145-[base_page.py-->line:163]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，点击('xpath', '//*[@text="点击头像登录"]')元素【成功】
+2021-02-03 23:49:57,178-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_mobile')元素可见【成功】
+2021-02-03 23:49:57,711-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_mobile')元素输入18311424046【成功】
+2021-02-03 23:49:58,227-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_password')元素可见【成功】
+2021-02-03 23:49:58,246-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_password')元素输入424046【成功】
+2021-02-03 23:49:58,781-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('xpath', '//*[@text="登录"]')元素可见【成功】
+2021-02-03 23:49:58,793-[base_page.py-->line:163]-INFO:在登录页面，登录操作的时候，点击('xpath', '//*[@text="登录"]')元素【成功】
+2021-02-03 23:50:01,948-[base_page.py-->line:69]-INFO:在导航栏，题库操作的时候，等待('id', 'com.lemon.lemonban:id/navigation_tiku')元素可见【成功】
+2021-02-03 23:50:01,960-[base_page.py-->line:163]-INFO:在导航栏，题库操作的时候，点击('id', 'com.lemon.lemonban:id/navigation_tiku')元素【成功】
+2021-02-03 23:50:05,310-[base_page.py-->line:62]-ERROR:在题图页面，进入接口测试题库操作的时候，等待('xpath', '//*[contains(@text,"接口测试")]')元素可见【失败】
+Traceback (most recent call last):
+  File "C:\Users\zhengshan\PyProjects\day47\page_objects\base_page.py", line 57, in wait_element_is_visible
+    EC.visibility_of_element_located(locator)
+  File "C:\Users\zhengshan\Python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2021-02-03 23:50:06,066-[base_page.py-->line:291]-INFO:生成错误截图：C:\Users\zhengshan\PyProjects\day47\screenshot\题图页面_进入接口测试题库操作_2021-02-03 23-50-05.png【成功】
+2021-02-03 23:50:06,725-[base_test_case.py-->line:24]-INFO:***********题库测试结束**********
+2021-02-03 23:54:55,439-[base_test_case.py-->line:20]-INFO:***********题库开始测试**********
+2021-02-03 23:55:03,201-[base_page.py-->line:69]-INFO:在导航栏，我的柠檬操作的时候，等待('id', 'com.lemon.lemonban:id/navigation_my')元素可见【成功】
+2021-02-03 23:55:03,214-[base_page.py-->line:163]-INFO:在导航栏，我的柠檬操作的时候，点击('id', 'com.lemon.lemonban:id/navigation_my')元素【成功】
+2021-02-03 23:55:03,863-[base_page.py-->line:69]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，等待('xpath', '//*[@text="点击头像登录"]')元素可见【成功】
+2021-02-03 23:55:03,885-[base_page.py-->line:163]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，点击('xpath', '//*[@text="点击头像登录"]')元素【成功】
+2021-02-03 23:55:04,842-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_mobile')元素可见【成功】
+2021-02-03 23:55:05,361-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_mobile')元素输入18311424046【成功】
+2021-02-03 23:55:05,883-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_password')元素可见【成功】
+2021-02-03 23:55:05,901-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_password')元素输入424046【成功】
+2021-02-03 23:55:06,432-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('xpath', '//*[@text="登录"]')元素可见【成功】
+2021-02-03 23:55:06,444-[base_page.py-->line:163]-INFO:在登录页面，登录操作的时候，点击('xpath', '//*[@text="登录"]')元素【成功】
+2021-02-03 23:55:09,548-[base_page.py-->line:69]-INFO:在导航栏，题库操作的时候，等待('id', 'com.lemon.lemonban:id/navigation_tiku')元素可见【成功】
+2021-02-03 23:55:09,560-[base_page.py-->line:163]-INFO:在导航栏，题库操作的时候，点击('id', 'com.lemon.lemonban:id/navigation_tiku')元素【成功】
+2021-02-03 23:55:12,912-[base_page.py-->line:62]-ERROR:在题图页面，进入接口测试题库操作的时候，等待('xpath', '//*[contains(@text,"接口测试")]')元素可见【失败】
+Traceback (most recent call last):
+  File "C:\Users\zhengshan\PyProjects\day47\page_objects\base_page.py", line 57, in wait_element_is_visible
+    EC.visibility_of_element_located(locator)
+  File "C:\Users\zhengshan\Python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2021-02-03 23:55:13,615-[base_page.py-->line:291]-INFO:生成错误截图：C:\Users\zhengshan\PyProjects\day47\screenshot\题图页面_进入接口测试题库操作_2021-02-03 23-55-12.png【成功】
+2021-02-03 23:55:15,860-[base_page.py-->line:69]-INFO:在题图页面，进入接口测试题库操作的时候，等待('xpath', '//*[contains(@text,"接口测试")]')元素可见【成功】
+2021-02-03 23:55:15,874-[base_page.py-->line:163]-INFO:在题图页面，进入接口测试题库操作的时候，点击('xpath', '//*[contains(@text,"接口测试")]')元素【成功】
+2021-02-03 23:55:16,859-[base_page.py-->line:69]-INFO:在题图页面，选择中级操作的时候，等待('xpath', '//*[@text="中级"]')元素可见【成功】
+2021-02-03 23:55:16,873-[base_page.py-->line:163]-INFO:在题图页面，选择中级操作的时候，点击('xpath', '//*[@text="中级"]')元素【成功】
+2021-02-03 23:55:17,865-[base_page.py-->line:69]-INFO:在题图页面，选择第1套操作的时候，等待('xpath', '//*[contains(@text, "第1套")]')元素可见【成功】
+2021-02-03 23:55:17,876-[base_page.py-->line:163]-INFO:在题图页面，选择第1套操作的时候，点击('xpath', '//*[contains(@text, "第1套")]')元素【成功】
+2021-02-03 23:55:18,848-[base_page.py-->line:69]-INFO:在题图页面，选择题目时获取题号操作的时候，等待('id', 'com.lemon.lemonban:id/toolbar_textview')元素可见【成功】
+2021-02-03 23:55:18,859-[base_page.py-->line:218]-INFO:在题图页面，选择题目时获取题号操作的时候，获取('id', 'com.lemon.lemonban:id/toolbar_textview')元素的文本【成功】
+2021-02-03 23:55:20,383-[base_page.py-->line:69]-INFO:在题图页面，选择题目时获取题号操作的时候，等待('id', 'com.lemon.lemonban:id/toolbar_textview')元素可见【成功】
+2021-02-03 23:55:20,392-[base_page.py-->line:218]-INFO:在题图页面，选择题目时获取题号操作的时候，获取('id', 'com.lemon.lemonban:id/toolbar_textview')元素的文本【成功】
+2021-02-03 23:55:21,910-[base_page.py-->line:69]-INFO:在题图页面，选择题目时获取题号操作的时候，等待('id', 'com.lemon.lemonban:id/toolbar_textview')元素可见【成功】
+2021-02-03 23:55:21,918-[base_page.py-->line:218]-INFO:在题图页面，选择题目时获取题号操作的时候，获取('id', 'com.lemon.lemonban:id/toolbar_textview')元素的文本【成功】
+2021-02-03 23:55:21,944-[base_page.py-->line:69]-INFO:在题图页面，点击查看题目答案操作的时候，等待('id', 'com.lemon.lemonban:id/switch_button')元素可见【成功】
+2021-02-03 23:55:21,957-[base_page.py-->line:163]-INFO:在题图页面，点击查看题目答案操作的时候，点击('id', 'com.lemon.lemonban:id/switch_button')元素【成功】
+2021-02-03 23:55:22,880-[base_page.py-->line:69]-INFO:在题图页面，获取题目答案操作的时候，等待('id', 'com.lemon.lemonban:id/tvBody')元素可见【成功】
+2021-02-03 23:55:22,891-[base_page.py-->line:218]-INFO:在题图页面，获取题目答案操作的时候，获取('id', 'com.lemon.lemonban:id/tvBody')元素的文本【成功】
+2021-02-03 23:55:23,491-[base_test_case.py-->line:24]-INFO:***********题库测试结束**********
+2021-02-03 23:57:15,374-[base_test_case.py-->line:20]-INFO:***********题库开始测试**********
+2021-02-03 23:57:23,156-[base_page.py-->line:69]-INFO:在导航栏，我的柠檬操作的时候，等待('id', 'com.lemon.lemonban:id/navigation_my')元素可见【成功】
+2021-02-03 23:57:23,175-[base_page.py-->line:163]-INFO:在导航栏，我的柠檬操作的时候，点击('id', 'com.lemon.lemonban:id/navigation_my')元素【成功】
+2021-02-03 23:57:23,830-[base_page.py-->line:69]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，等待('xpath', '//*[@text="点击头像登录"]')元素可见【成功】
+2021-02-03 23:57:23,843-[base_page.py-->line:163]-INFO:在我的柠檬页面，点击我的头像，进入登录页面操作的时候，点击('xpath', '//*[@text="点击头像登录"]')元素【成功】
+2021-02-03 23:57:24,792-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_mobile')元素可见【成功】
+2021-02-03 23:57:25,311-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_mobile')元素输入18311424046【成功】
+2021-02-03 23:57:25,825-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('id', 'com.lemon.lemonban:id/et_password')元素可见【成功】
+2021-02-03 23:57:25,839-[base_page.py-->line:196]-INFO:在登录页面，登录操作的时候，对('id', 'com.lemon.lemonban:id/et_password')元素输入424046【成功】
+2021-02-03 23:57:26,400-[base_page.py-->line:69]-INFO:在登录页面，登录操作的时候，等待('xpath', '//*[@text="登录"]')元素可见【成功】
+2021-02-03 23:57:26,416-[base_page.py-->line:163]-INFO:在登录页面，登录操作的时候，点击('xpath', '//*[@text="登录"]')元素【成功】
+2021-02-03 23:57:29,519-[base_page.py-->line:69]-INFO:在导航栏，题库操作的时候，等待('id', 'com.lemon.lemonban:id/navigation_tiku')元素可见【成功】
+2021-02-03 23:57:29,529-[base_page.py-->line:163]-INFO:在导航栏，题库操作的时候，点击('id', 'com.lemon.lemonban:id/navigation_tiku')元素【成功】
+2021-02-03 23:57:34,644-[base_page.py-->line:62]-ERROR:在题库页面，进入接口测试题库操作的时候，等待('xpath', '//*[contains(@text,"接口测试")]')元素可见【失败】
+Traceback (most recent call last):
+  File "C:\Users\zhengshan\PyProjects\day47\page_objects\base_page.py", line 57, in wait_element_is_visible
+    EC.visibility_of_element_located(locator)
+  File "C:\Users\zhengshan\Python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2021-02-03 23:57:35,323-[base_page.py-->line:291]-INFO:生成错误截图：C:\Users\zhengshan\PyProjects\day47\screenshot\题库页面_进入接口测试题库操作_2021-02-03 23-57-34.png【成功】
+2021-02-03 23:57:38,582-[base_page.py-->line:69]-INFO:在题库页面，进入接口测试题库操作的时候，等待('xpath', '//*[contains(@text,"接口测试")]')元素可见【成功】
+2021-02-03 23:57:38,593-[base_page.py-->line:163]-INFO:在题库页面，进入接口测试题库操作的时候，点击('xpath', '//*[contains(@text,"接口测试")]')元素【成功】
+2021-02-03 23:57:39,593-[base_page.py-->line:69]-INFO:在题库页面，选择中级操作的时候，等待('xpath', '//*[@text="中级"]')元素可见【成功】
+2021-02-03 23:57:39,609-[base_page.py-->line:163]-INFO:在题库页面，选择中级操作的时候，点击('xpath', '//*[@text="中级"]')元素【成功】
+2021-02-03 23:57:40,645-[base_page.py-->line:69]-INFO:在题库页面，选择第1套操作的时候，等待('xpath', '//*[contains(@text, "第1套")]')元素可见【成功】
+2021-02-03 23:57:40,661-[base_page.py-->line:163]-INFO:在题库页面，选择第1套操作的时候，点击('xpath', '//*[contains(@text, "第1套")]')元素【成功】
+2021-02-03 23:57:41,625-[base_page.py-->line:69]-INFO:在题库页面，选择题目时获取题号操作的时候，等待('id', 'com.lemon.lemonban:id/toolbar_textview')元素可见【成功】
+2021-02-03 23:57:41,634-[base_page.py-->line:218]-INFO:在题库页面，选择题目时获取题号操作的时候，获取('id', 'com.lemon.lemonban:id/toolbar_textview')元素的文本【成功】
+2021-02-03 23:57:43,161-[base_page.py-->line:69]-INFO:在题库页面，选择题目时获取题号操作的时候，等待('id', 'com.lemon.lemonban:id/toolbar_textview')元素可见【成功】
+2021-02-03 23:57:43,170-[base_page.py-->line:218]-INFO:在题库页面，选择题目时获取题号操作的时候，获取('id', 'com.lemon.lemonban:id/toolbar_textview')元素的文本【成功】
+2021-02-03 23:57:44,693-[base_page.py-->line:69]-INFO:在题库页面，选择题目时获取题号操作的时候，等待('id', 'com.lemon.lemonban:id/toolbar_textview')元素可见【成功】
+2021-02-03 23:57:44,707-[base_page.py-->line:218]-INFO:在题库页面，选择题目时获取题号操作的时候，获取('id', 'com.lemon.lemonban:id/toolbar_textview')元素的文本【成功】
+2021-02-03 23:57:44,743-[base_page.py-->line:69]-INFO:在题库页面，点击查看题目答案操作的时候，等待('id', 'com.lemon.lemonban:id/switch_button')元素可见【成功】
+2021-02-03 23:57:44,755-[base_page.py-->line:163]-INFO:在题库页面，点击查看题目答案操作的时候，点击('id', 'com.lemon.lemonban:id/switch_button')元素【成功】
+2021-02-03 23:57:45,680-[base_page.py-->line:69]-INFO:在题库页面，获取题目答案操作的时候，等待('id', 'com.lemon.lemonban:id/tvBody')元素可见【成功】
+2021-02-03 23:57:45,688-[base_page.py-->line:218]-INFO:在题库页面，获取题目答案操作的时候，获取('id', 'com.lemon.lemonban:id/tvBody')元素的文本【成功】
+2021-02-03 23:57:46,220-[base_test_case.py-->line:24]-INFO:***********题库测试结束**********
+2021-09-13 22:18:38,329-[base_test_case.py-->line:20]-INFO:***********题库开始测试**********
+2021-09-13 22:18:47,768-[base_test_case.py-->line:24]-INFO:***********题库测试结束**********
